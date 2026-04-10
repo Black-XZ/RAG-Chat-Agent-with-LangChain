@@ -3,6 +3,8 @@
 参考开源项目：https://github.com/icey1287/SuperMew 做的本地实现。
 
 以下是Agent的项目记录，方便后续持续更新与展示。
+<img width="627" height="768" alt="image" src="https://github.com/user-attachments/assets/96a06666-56bc-400e-8124-39ed81bac6e8" />
+<img width="2559" height="1410" alt="image" src="https://github.com/user-attachments/assets/bb0b13fc-5e39-4d53-b3d3-5ace3e8e7b2a" />
 
 ## 本地部署
 ### 1) 环境准备
