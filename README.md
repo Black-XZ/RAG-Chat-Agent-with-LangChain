@@ -6,6 +6,18 @@
 
 <img width="2559" height="1410" alt="image" src="https://github.com/user-attachments/assets/bb0b13fc-5e39-4d53-b3d3-5ace3e8e7b2a" />
 
+RAGAS评分
+
+<img width="989" height="590" alt="ragas_scores" src="https://github.com/user-attachments/assets/1c7705b5-cf1e-453a-9ac1-97ddaf210091" />
+
+## RAGAS评估步骤
+
+1. 准备问答数据集eval_questions.csv。（列名：question, ground_truth）
+2. uv run python backend/app.py开启RAG后端服务后，批量导入dify的workflow，生成result.csv
+3. 运行parse_dify_result.py，生成eval_ready.csv
+4. 运行 RAGAS 评测: RAGAS_evaluation_manual.ipynb
+5. 得到ragas_scores_manual.csv和ragas_scores.png
+
 ## 本地部署
 ### 1) 环境准备
 - Python `3.12+`
